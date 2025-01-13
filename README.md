@@ -29,9 +29,11 @@ Created a visual diagram on how i would host an application on the AWS cloud, ba
       Every service that I utelized has a backup in another Availabilty zone in case of failover. (Ex: EC2, Amazon S3, Aurora).
 
 6. Scalability
-      Enabled auto scaling for the EC2 instances. 
+      Enabled auto scaling for the EC2 instances.
 
-7. Monitering and Alerts
+8. Monitering and Alerts
       Used Amazon Cloud watch to monitor matrics, logs and set up alarms. also used Amazon SNS attached to the VPC in case a failure happens so we can be notified.
-          
+
+
+
           
